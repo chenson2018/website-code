@@ -71,7 +71,7 @@ main = do
                 
     let nug = take 30 $ merge g_nug f_nug
     
-    --prints the first 12 nuggets for problem 137,
+    --prints the first 15 nuggets for problem 137,
     --and the first 30 for problem 140
     mapM_ print [map (numerator) fib_nugget_2, 
                  [], 
